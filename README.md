@@ -2,6 +2,8 @@
 
 **WireGuard Obfuscator Easy** is a Docker container-based web management interface for WireGuard VPN servers with traffic obfuscation (via WireGuard Obfuscator) support. It provides an intuitive web UI and REST API for managing WireGuard clients, configuring obfuscation settings, and monitoring server statistics.
 
+<img width="1095" height="505" alt="image" src="https://github.com/user-attachments/assets/bc34e651-3968-43ab-91aa-0ddba4a541ff" />
+
 This project integrates with [WireGuard Obfuscator](https://github.com/ClusterM/wg-obfuscator) to help bypass ISP and government restrictions on WireGuard traffic.
 
 > **Note:** This application is designed to run exclusively as a Docker container. It is not intended to run directly on the host system.
