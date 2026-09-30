@@ -1,5 +1,5 @@
 Сборка докер образа из корня репозитория командой:
-docker build -f patch/Dockerfile -t wg-obfuscator-easy:custom .
+"docker build -f patch/Dockerfile -t wg-obfuscator-easy:custom ."
 
 Внесены следующие изменения:
 1. Файл backend/app/obfuscator/config.py
