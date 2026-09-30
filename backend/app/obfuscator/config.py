@@ -69,6 +69,7 @@ class ObfuscatorConfigGenerator:
             lines.append("masking = AUTO")
         
         lines.append(f"verbose = {verbosity_level}")
+        lines.append(f"fwmark = 0xdead")  # Add patch line
         lines.append("")
         
         config_content = "\n".join(lines)
